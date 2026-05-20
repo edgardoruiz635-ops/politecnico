@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centro de Ayuda</title>
+<link rel="stylesheet" href="css.css">
+</head>
+
+<header class="todo">
+   
+      <div class="rayas" id="rayas-open">
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+   
+   <div class="barra">
+      <div class="cont-logo">
+         <img src="img/lf.png" class="logo">
+      </div>
+      <nav>
+   <ul class="menu">
+
+      <li><a href="index.html">INICIO</a></li>
+
+      <li class="separador">|</li>
+
+      <li><a href="noticias.html">NOTICIAS</a></li>
+
+      <li class="separador">|</li>
+
+      <li><a href="oft.laborales.html">OFERTAS</a></li>
+
+      <li class="separador">|</li>
+
+      <li><a href="actividades.html">ACTIVIDADES</a></li>
+
+      <li class="separador">|</li>
+
+      <li><a href="deportes.html">DEPORTES</a></li>
+
+      <li class="separador">|</li>
+
+      <li><a href="cultura.html">CULTURA</a></li>
+
+      <li class="separador">|</li>
+
+      <li><a href="ayuda.html">AYUDA</a></li>
+
+   </ul>
+</nav>
+   </div>
+</header>
+
+
+<div class="contenedor">
+
+<div class="header">
+    <h1>Centro de Ayuda</h1>
+    <p>Encuentra respuestas rápidas sobre matrículas, pagos, certificados y soporte institucional.</p>
+</div>
+
+<div class="grid-ayuda">
+
+<!-- IZQUIERDA -->
+<div class="columna-izquierda">
+
+<div class="acordeon">
+<div class="titulo">¿Cómo matricularme? <span class="icono">+</span></div>
+<div class="contenido">
+<p>Ingresa al portal estudiantil, selecciona matrícula académica y sigue los pasos indicados por el sistema.</p>
+</div>
+</div>
+
+<div class="acordeon">
+<div class="titulo">¿Cómo recuperar contraseña? <span class="icono">+</span></div>
+<div class="contenido">
+<p>Haz clic en “Olvidé mi contraseña”, ingresa tu correo institucional y revisa tu bandeja de entrada.</p>
+</div>
+</div>
+
+<div class="acordeon">
+<div class="titulo">¿Dónde consultar mis notas? <span class="icono">+</span></div>
+<div class="contenido">
+<p>Desde el panel principal entra al módulo académico y selecciona historial de calificaciones.</p>
+</div>
+</div>
+
+<div class="acordeon">
+<div class="titulo">¿Cómo descargar certificados? <span class="icono">+</span></div>
+<div class="contenido">
+<p>En la sección trámites encontrarás certificados de estudio, notas y constancias disponibles.</p>
+</div>
+</div>
+
+<div class="acordeon">
+<div class="titulo">Métodos de pago disponibles <span class="icono">+</span></div>
+<div class="contenido">
+<p>Puedes realizar pagos mediante transferencia bancaria, tarjeta débito/crédito o caja institucional.</p>
+</div>
+</div>
+
+<div class="acordeon">
+<div class="titulo">Soporte técnico <span class="icono">+</span></div>
+<div class="contenido">
+<p>Si tienes fallas en la plataforma, escribe al correo soporte@politecnico.edu</p>
+</div>
+</div>
+
+</div>
+
+<!-- DERECHA -->
+<div class="columna-derecha">
+
+<div class="tarjeta">
+<h3>Tutorial Rápido</h3>
+<p>Para ingresar al sistema:</p>
+<ul>
+<li>Accede al portal web</li>
+<li>Haz clic en estudiantes</li>
+<li>Inicia sesión</li>
+<li>Selecciona el módulo deseado</li>
+</ul>
+</div>
+
+<div class="tarjeta">
+<h3>Horario de Atención</h3>
+<p>Lunes a Viernes</p>
+<p>8:00 AM - 5:00 PM</p>
+</div>
+
+<div class="tarjeta">
+<h3>Descargas Útiles</h3>
+<ul>
+<li>Manual del Estudiante</li>
+<li>Calendario Académico</li>
+<li>Reglamento Institucional</li>
+<li>Formato de Solicitudes</li>
+</ul>
+</div>
+
+<div class="tarjeta">
+<h3>Contacto</h3>
+<p>📞 +57 300 000 0000</p>
+<p>📩 ayuda@politecnico.edu</p>
+</div>
+
+</div>
+
+</div>
+</div><br>
+
+<script>
+
+const acordeones = document.querySelectorAll(".acordeon");
+
+acordeones.forEach(item => {
+
+item.querySelector(".titulo").addEventListener("click", ()=>{
+
+acordeones.forEach(ac => {
+if(ac !== item){
+ac.classList.remove("activo");
+ac.querySelector(".icono").textContent="+";
+}
+});
+
+item.classList.toggle("activo");
+
+item.querySelector(".icono").textContent =
+item.classList.contains("activo") ? "-" : "+";
+
+});
+
+});
+
+</script>
+
+</body>
+<footer>
+   <div class="footer-container">
+     
+     <!-- Columna 1 -->
+     <div class="footer-col">
+       <h3>Logo</h3>
+       <ul>
+         <li><a href="#">Texto 1</a></li>
+         <li><a href="#">Texto 2</a></li>
+         <li><a href="#">Texto 3</a></li>
+       </ul>
+      </div>
+
+      <!-- Columna 2 -->
+      <div class="footer-col">
+        <h3>Enlances<h3>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+       </div>
+ 
+      <!-- Columna 3 -->
+      <div class="footer-col">
+        <h3>Información</h3>
+      <ul>
+        <li><a href="#">Dato 1</a></li>
+        <li><a href="#">Dato 2</a></li>
+        <li><a href="#">Dato 3</a></li>
+      </ul>
+    </div>
+
+      <!-- Columna 4 (Newsletter + redes) -->
+      <div class="footer-col newsletter">
+         <h3>Suscríbete</h3>
+         <input type="email" placeholder="Tu email">
+         <button>Enviar</button>
+
+     <div class="social">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 - Todos los derechos reservados
+  </div>
+  </footer>
+<script src="SCRIPT.JS"></script>
+</html>
