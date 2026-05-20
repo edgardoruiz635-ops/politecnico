@@ -306,7 +306,7 @@ z-index: 1000;
 }  
    
 .content {
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1180,7 +1180,33 @@ CULTURA
    
 }
 
+@media (max-width:768px){
 
+    .bienvenido{
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .bienvenido img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .content{
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .content h1{
+        font-size: 28px;
+    }
+
+    .content p{
+        font-size: 16px;
+        width: 100%;
+    }
+
+}
 
 
 
