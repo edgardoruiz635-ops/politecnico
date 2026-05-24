@@ -962,15 +962,10 @@ CULTURA
     }
 
     .bienvenido {
-        padding: 0 10px;
-        margin-top: 15px;
+        height: 45vh;
     }
 
-    .bienvenido img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
+   
 
     .content {
         min-height: auto;
