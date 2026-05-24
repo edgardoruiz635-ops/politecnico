@@ -813,7 +813,7 @@ CULTURA
 }
 
 .bienvenido {
-   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('pagina principal 1.png');
+   background:  url('pagina principal 1.png');
    background-size: cover;
    background-position: center;
    height: 80vh;
