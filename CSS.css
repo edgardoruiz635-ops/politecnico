@@ -845,35 +845,20 @@ CULTURA
    MEDIA QUERIES (RESPONSIVE) - Ordenados de pantallas y chicas
    ========================================================================== */
 @media (max-width: 768px) {
-
-    html,
-    body {
-        overflow-x: hidden;
-    }
-
-    *{
-        box-sizing: border-box;
-    }
-
     body {
         padding-top: 80px;
     }
 
     .barra {
-        width: calc(100% - 20px);
-        left: 10px;
-        right: 10px;
-        padding: 10px 15px;
-    }
-
-    .logo{
-        height: 45px;
+        width: 50%;
+        
     }
 
     .bienvenido {
         height: 45vh;
-        padding: 20px;
     }
+
+   
 
     .content {
         min-height: auto;
@@ -881,7 +866,7 @@ CULTURA
     }
 
     .content h1 {
-        font-size: 28px;
+        font-size: 30px;
         margin-bottom: 20px;
         word-break: break-word;
     }
@@ -897,7 +882,7 @@ CULTURA
     .titulo-actividades h1,
     .titulo-seccion h1,
     .titulo-cultura h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .titulo-noticias p,
@@ -905,139 +890,122 @@ CULTURA
     .titulo-seccion p,
     .titulo-cultura p {
         font-size: 16px;
-        padding: 0 10px;
     }
 
-    .contenido-noticia h2,
-    .contenido-actividad h2,
-    .contenido-sport h2,
-    .contenido-cultura h2 {
-        font-size: 22px;
+    .contenido-noticia h2 {
+        font-size: 24px;
     }
 
-    .noticia-card img,
-    .media-actividad img,
-    .media-actividad video,
-    .sport-card img,
-    .card-cultura img {
+    .noticia-card img {
         height: 220px;
     }
 
-    .info,
-    .info-actividad {
+    .info {
         flex-direction: column;
         gap: 10px;
     }
 
     .grid-empleos,
     .grid-sports,
-    .grid-cultura,
-    .grid-ayuda,
-    .footer-container,
-    .contenedor-noticias,
-    .grid-actividades {
+    .grid-cultura {
         grid-template-columns: 1fr;
     }
 
-    .card-empleo,
-    .contenido-noticia,
-    .contenido-actividad,
-    .contenido-cultura,
-    .contenido-sport {
-        padding: 20px;
+    .contenido-actividad h2 {
+        font-size: 24px;
     }
 
-    /* MENU HAMBURGUESA */
-
+    .media-actividad img,
+    .media-actividad video {
+        height: 220px;
+    }
     .rayas {
-        width: 40px;
-        height: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        cursor: pointer;
-        z-index: 1001;
-        position: fixed;
-        left: 15px;
-        top: 25px;
-        background: #121b37;
-        padding: 10px;
-        border-radius: 10px;
-    }
+       width: 40px;
+       height: 25px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       cursor: pointer;
+       background: transparent;
+       z-index: 1001;
+       position: fixed;
+       left: 15px;
+       top: 30px;
+   }
 
-    .rayas span {
-        display: block;
-        width: 100%;
-        height: 4px;
-        background: #ffffff;
-        border-radius: 5px;
-        transition: 0.3s;
-    }
+   .rayas span {
+       display: block;
+       width: 100%;
+       height: 5px;
+       background: #ffffff;
+       border-radius: 5px;
+       transition: 0.3s;  
+   }
 
-    nav {
-        display: block;
-    }
+   nav {
+       display: block;
+   }
 
-    .menu {
-        position: fixed;
-        top: 0;
-        left: -300px;
-        width: 260px;
-        height: 100vh;
-        background-color: #121b37;
-        display: flex;
-        flex-direction: column;
-        padding: 10px 20px 80px;
-        margin-top: 80px;
-        list-style: none;
-        transition: 0.4s ease-in-out;
-        box-shadow: 5px 0 15px rgba(0,0,0,0.5);
-        z-index: 999;
-        overflow-y: auto;
-    }
+   .menu {
+       position: fixed;
+       top: 0;
+       left: -340px;
+       width: 300px;
+       height: 100vh;
+       background-color: #121b37;
+       display: flex;
+       flex-direction: column;
+       padding: 5px 20px 80px 20px;
+       margin-top: 85px;
+       list-style: none;
+       transition: 0.4s ease-in-out;
+       box-shadow: 5px 0 15px rgba(0,0,0,0.5);
+       z-index: 999;
+   }
 
-    .menu.active {
-        left: 0;
-    }
+   .menu.active {
+       left: 0;
+   }
 
-    .menu li {
-        margin: 12px 0;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
+   .menu li {
+       margin: 15px 0; 
+       border-bottom: 1px solid rgba(255,255,255,0.1);
+   }
 
-    .menu li a {
-        text-decoration: none;
-        color: #ffffff;
-        font-family: sans-serif;
-        font-size: 1rem;
-        display: block;
-        padding: 12px;
-        transition: 0.3s;
-    }
+   .menu li a {
+       text-decoration: none;
+       color: #ffffff; /* Corregido punto y coma faltante aquí */
+       font-family: sans-serif;
+       font-size: 1.1rem;
+       display: block;
+       padding: 12px;
+       transition: 0.3s;
+   } 
 
-    .menu li a:hover {
-        background-color: #121b38;
-        color: white;
-        padding-left: 20px;
-    }
+   .menu li a:hover {
+       background-color: #121b38;
+       box-shadow: 5px 0 15px rgba(0,0,0,0.5);
+       color: white;
+       padding-left: 20px;
+   }
 
-    .separador {
+   .separador {
         display: none;
-    }
+   } 
 
-    .dropdown {
-        position: static;
-        display: none;
-        width: 100%;
-    }
+   .dropdown {
+       position: static;
+       display: none;
+   }
 
-    .header {
-        margin: 40px 20px;
-    }
+   .grid-ayuda,
+   .footer-container,
+   .contenedor-noticias,
+   .grid-actividades {
+        grid-template-columns: 2fr;
+   }
 
-    img{
-        max-width: 100%;
-        display: block;
-    }
-
+   .header {
+     margin: 40px 20px;
+   }
 }
