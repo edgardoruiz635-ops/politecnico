@@ -869,7 +869,7 @@ CULTURA
     }
 
     .bienvenido {
-        height: 45vh;
+        min-height: 45vh;
     }
 
    
