@@ -1,3 +1,12 @@
+*{
+   box-sizing:border-box;
+}
+
+html,
+body{
+   overflow-x:hidden;
+}
+
 body {
    margin:0;
    padding:0;
@@ -827,18 +836,26 @@ CULTURA
     background: #7c3aed;
 }
 
-.bienvenido {
-   background:  url('pagina principal 1.png');
-   background-size: cover;
-   background-position: center;
-   height: 80vh;
+.bienvenido{
+   width:100%;
+   max-width:100%;
+   overflow:hidden;
+
+   background:url('pagina principal 1.png');
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+
+   min-height:80vh;
+
    display:flex;
    align-items:center;
-   justify-content: center;
+   justify-content:center;
+
    color:white;
-   text-align: center;
-   width:100%;
-   border-bottom: 3px solid #ffffff;
+   text-align:center;
+
+   border-bottom:3px solid #ffffff;
 }
  
    
@@ -868,19 +885,20 @@ CULTURA
         
     }
 
-    .bienvenido{
-    min-height:60vh;
-    height:auto;
-    padding:40px 20px;
+   .bienvenido{
+    width:100%;
+    max-width:100%;
 
-    background-size:contain;
-    background-position:top center;
-    background-position:center center;
+    min-height:55vh;
+    height:auto;
+
+    padding:30px 15px;
+
+    background-size:cover;
+    background-position:center;
     background-repeat:no-repeat;
 
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    overflow:hidden;
 }
 
    
@@ -977,8 +995,8 @@ CULTURA
    .menu {
        position: fixed;
        top: 0;
-       left: -340px;
-       width: 300px;
+       left: -300px;
+       width: 280px;
        height: 100vh;
        background-color: #121b37;
        display: flex;
