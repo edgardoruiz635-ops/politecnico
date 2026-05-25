@@ -1037,11 +1037,11 @@ CULTURA
    }
 
    .grid-ayuda,
-   .footer-container,
-   .contenedor-noticias,
-   .grid-actividades {
-        grid-template-columns: 2fr;
-   }
+.footer-container,
+.contenedor-noticias,
+.grid-actividades {
+     grid-template-columns: 1fr;
+}
 
    .header {
      margin: 40px 20px;
