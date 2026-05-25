@@ -886,12 +886,21 @@ CULTURA
     }
 
   .bienvenido{
+    width:100%;
     min-height:55vh;
-    padding:30px 15px;
+    padding:20px;
 
-    background-size:cover;
-    background-position:center;
+    background-image:url('pagina principal 1.png');
+
+    background-size:100% auto;
+    background-position:top center;
     background-repeat:no-repeat;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    overflow:hidden;
 }
    
 
