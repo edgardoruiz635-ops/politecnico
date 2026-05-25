@@ -1005,7 +1005,7 @@ CULTURA
    .footer-container,
    .contenedor-noticias,
    .grid-actividades {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
    }
 
    .header {
