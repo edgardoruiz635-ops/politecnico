@@ -868,16 +868,28 @@ CULTURA
         
     }
 
-    .bienvenido {
-        height: 45vh;
-       padding: 20px;
-    }
+    .bienvenido{
+    min-height:60vh;
+    height:auto;
+    padding:40px 20px;
+
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
    
 
     .content {
         min-height: auto;
         padding: 30px 15px;
+        width:100%;
+        max-width:100%;
+        box-sizing:border-box;
     }
 
     .content h1 {
