@@ -885,22 +885,14 @@ CULTURA
         
     }
 
-   .bienvenido{
-    width:100%;
-    max-width:100%;
-
+  .bienvenido{
     min-height:55vh;
-    height:auto;
-
     padding:30px 15px;
 
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-
-    overflow:hidden;
 }
-
    
 
     .content {
