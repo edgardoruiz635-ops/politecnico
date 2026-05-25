@@ -869,7 +869,8 @@ CULTURA
     }
 
     .bienvenido {
-        min-height: 45vh;
+        height: 45vh;
+       padding: 20px;
     }
 
    
