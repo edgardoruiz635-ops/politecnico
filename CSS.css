@@ -885,18 +885,16 @@ CULTURA
         
     }
 
- .bienvenido{
+.bienvenido{
     width:100%;
-    aspect-ratio:16/9;
+    height:auto;
 
     background-image:url('pagina principal 1.png');
-    background-size:contain;
-    background-position:center top;
+    background-size:100% auto;
+    background-position:top center;
     background-repeat:no-repeat;
 
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    aspect-ratio:16/9;
 
     overflow:hidden;
 
