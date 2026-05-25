@@ -297,11 +297,11 @@ footer::before {
   margin-top: 15px;
 }
 
-.social span {
+.social i {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: #7b2cbf;
+  background: #009ee8;
   border-radius: 50%;
   margin-right: 10px;
 }
