@@ -887,7 +887,7 @@ CULTURA
 
 .bienvenido{
     width:100%;
-    min-height:0;
+    min-height:320px;
 
     background-image:url('pagina principal 1.png');
     background-size:100% auto;
