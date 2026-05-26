@@ -836,26 +836,16 @@ CULTURA
     background: #7c3aed;
 }
 
-.bienvenido{
-   width:100%;
-   max-width:100%;
-   overflow:hidden;
+.bienvenido2 {
+   width: 100%;
+   overflow: hidden;
+   border-bottom: 3px solid #ffffff;
+}
 
-   background:url('pagina principal 1.png');
-   background-size:cover;
-   background-position:center;
-   background-repeat:no-repeat;
-
-   min-height:80vh;
-
-   display:flex;
-   align-items:center;
-   justify-content:center;
-
-   color:white;
-   text-align:center;
-
-   border-bottom:3px solid #ffffff;
+.bienvenido2 img {
+   width: 100%;
+   height: auto;
+   display: block;
 }
  
    
