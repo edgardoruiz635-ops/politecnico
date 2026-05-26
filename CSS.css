@@ -471,7 +471,7 @@ OFERTAS LABORALES
 }
 
 .card-empleo {
-    background: white;
+    background: linear-gradient(#121b42, #121b42, #fff);
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
@@ -586,7 +586,7 @@ ACTIVIDADES
 }
 
 .card-actividad {
-    background: white;
+    background: linear-gradient(#121b42, #121b42, #fff);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.12);
@@ -692,7 +692,7 @@ DEPORTES
 }
 
 .sport-card {
-    background: white;
+    background: linear-gradient(#121b42, #121b42, #fff);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.12);
@@ -781,7 +781,7 @@ CULTURA
 }
 
 .card-cultura {
-    background: white;
+    background: linear-gradient(#121b42, #121b42, #fff);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.12);
@@ -859,7 +859,7 @@ CULTURA
 .contened {
     max-width: 950px;
     margin: auto;
-    background: #ffffff;
+    background: linear-gradient(#121b42, #121b42, #fff);
     padding: 35px;
     border-radius: 14px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.12);
