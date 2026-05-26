@@ -41,13 +41,6 @@ body {
   height: 60px;
 }
 
-.cont-logo {
-  background-repeat: no-repeat;   
-  background-size: cover;         
-    
-  height: 100vh;                  
-}   
-
 .menu {
    list-style: none;
    display: flex;
