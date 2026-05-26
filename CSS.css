@@ -390,7 +390,7 @@ NOTICIAS
 
 .contenido-noticia {
     padding: 28px;
-    background: linear-gradient(#fff, #121b42);
+    background: linear-gradient(#121b42, #fff);
 }
 
 .categoria {
