@@ -499,12 +499,12 @@ OFERTAS LABORALES
 }
 
 .top-empleo h2 {
-    color: #1e293b;
+    color: #ffffff;
     margin-bottom: 8px;
 }
 
 .empresa {
-    color: #64748b;
+    color: #E8F2FE;
 }
 
 .datos-empleo {
@@ -626,14 +626,14 @@ ACTIVIDADES
 }
 
 .contenido-actividad h2 {
-    color: #1e293b;
+    color: #ffffff;
     margin-bottom: 18px;
     font-size: 28px;
     line-height: 1.3;
 }
 
 .contenido-actividad p {
-    color: #555;
+    color: #E8F2FE;
     line-height: 1.7;
     margin-bottom: 25px;
 }
@@ -714,13 +714,13 @@ DEPORTES
 }
 
 .contenido-sport h2 {
-    color: #1e293b;
+    color: #ffffff;
     margin-bottom: 15px;
     font-size: 30px;
 }
 
 .contenido-sport p {
-    color: #555;
+    color: #E8F2FE;
     line-height: 1.7;
     margin-bottom: 25px;
 }
@@ -813,14 +813,14 @@ CULTURA
 }
 
 .contenido-cultura h2 {
-    color: #1e293b;
+    color: #ffffff;
     margin: 20px 0;
     font-size: 28px;
     line-height: 1.3;
 }
 
 .contenido-cultura p {
-    color: #555;
+    color: #E8F2FE;
     line-height: 1.7;
     margin-bottom: 25px;
 }
@@ -879,7 +879,7 @@ CULTURA
 .bienestarr p {
     line-height: 1.8;
     margin-bottom: 15px;
-    color: #333;
+    color: #E8F2FE;
     font-size: 16px;
 }
 
@@ -891,7 +891,7 @@ CULTURA
 .bienestarr ul li {
     margin-bottom: 10px;
     line-height: 1.6;
-    color: #444;
+    color: #fff;
 }   
 
 
