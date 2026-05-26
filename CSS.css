@@ -890,6 +890,7 @@ CULTURA
     height: 260px;
 
     background-image:url('pagina principal 1.png');
+    background-size:cover;
     background-position:top center;
     background-repeat:no-repeat;
 
