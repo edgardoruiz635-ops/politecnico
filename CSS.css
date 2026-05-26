@@ -885,20 +885,12 @@ CULTURA
         
     }
 
-   .bienvenido{
-    width:100%;
-    overflow:hidden;
-      display:none;
-   }
-
-   .bienvenido img{
-    width:100%;
-    display:none;
-   }
    
-.bienvenidos2 {
+   
+.bienvenidos2 img {
    width: 100%;
    height: 200px;
+   overflow:hidden;
 }
 
 
